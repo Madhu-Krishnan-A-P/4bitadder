@@ -1,19 +1,26 @@
 # 4-Bit Adder in Verilog
 
-This project demonstrates the implementation of a 4-bit adder in Verilog using three different modeling styles: **behavioral**, **dataflow**, and **structural**. Each implementation is accompanied by a corresponding testbench for simulation and verification.
+This project demonstrates the implementation of a 4-bit adder in Verilog using three different modelling styles: **behavioral**, **dataflow**, and **structural**. Each implementation is accompanied by a corresponding testbench for simulation and verification.
 
 ## 📁 Repository Structure
 
-├── 4 bit adder behavioural.png # Block diagram for behavioral model
-├── 4 bit adder dataflow.png # Block diagram for dataflow model
-├── 4 bit adder structural.png # Block diagram for structural model
-├── Experiment 2.pdf # Lab report or documentation
-├── adder_behavioural.v # Verilog code - Behavioral modeling
-├── adder_dataflow.v # Verilog code - Dataflow modeling
-├── adder_structural.v # Verilog code - Structural modeling
-├── testbench_behavioural.v # Testbench for behavioral model
-├── testbench_dataflow.v # Testbench for dataflow model
-└── testbench_structural.v # Testbench for structural model
+├── behavioural/
+│   ├── 4-bit adder behavioural.png         # Simulation waveform
+│   ├── adder_behavioural.v                 # Verilog code - Behavioral modeling
+│   └── testbench_behavioural.v             # Testbench for behavioral model
+
+├── dataflow/
+│   ├── 4-bit adder dataflow.png            # Simulation waveform
+│   ├── adder_dataflow.v                    # Verilog code - Dataflow modeling
+│   └── testbench_dataflow.v                # Testbench for dataflow model
+
+├── structural/
+│   ├── 4-bit adder structural.png          # Simulation waveform
+│   ├── adder_structural.v                  # Verilog code - Structural modeling
+│   └── testbench_structural.v              # Testbench for structural model
+
+├── README.md                               # Project overview and usage instructions
+└── adder.pdf                               # Lab report documentation
 
 
 ## 💡 Description
